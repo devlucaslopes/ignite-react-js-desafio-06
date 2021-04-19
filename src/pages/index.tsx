@@ -1,5 +1,12 @@
-import { Heading } from '@chakra-ui/react'
+import { Header } from '../components/Header'
+import { Banner } from '../components/Banner'
 
 export default function Home() {
-  return <Heading color="gray.700">Hello world</Heading>
+  return (
+    <>
+      <Header />
+
+      <Banner />
+    </>
+  )
 }
