@@ -1,3 +1,5 @@
+import { Heading } from '@chakra-ui/react'
+
 export default function Home() {
-  return <h1>hello</h1>
+  return <Heading color="gray.700">Hello world</Heading>
 }
