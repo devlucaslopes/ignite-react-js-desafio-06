@@ -17,7 +17,7 @@ export function Banner() {
     <Box bgImage="url('/bg.png')" bgSize="cover">
       <Flex
         maxW="1160px"
-        h={[163, 335]}
+        maxH="335px"
         mx="auto"
         px="4"
         py="7"
